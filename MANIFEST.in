@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sultex *.css
+recursive-include sultex *.csv
+recursive-include sultex *.html
+recursive-include sultex *.ico
+recursive-include sultex *.js
+recursive-include sultex *.json
+recursive-include sultex *.md
+recursive-include sultex *.png
+recursive-include sultex *.py
+recursive-include sultex *.svg
+recursive-include sultex *.txt
+recursive-exclude sultex *.pyc

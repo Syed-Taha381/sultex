@@ -1,0 +1,45 @@
+{
+ "creation": "2021-09-16 18:50:37.753164",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "uom",
+  "conversion_factor",
+  "qty"
+ ],
+ "fields": [
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "conversion_factor",
+   "fieldtype": "Float",
+   "hidden": 1,
+   "label": "Conversion Factor"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-09-17 17:10:13.842446",
+ "modified_by": "Administrator",
+ "module": "Sultex",
+ "name": "Work Order Secondary UOM",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

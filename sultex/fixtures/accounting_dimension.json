@@ -1,0 +1,27 @@
+[
+ {
+  "dimension_defaults": [
+   {
+    "company": "Sultex",
+    "default_dimension": null,
+    "mandatory_for_bs": 0,
+    "mandatory_for_pl": 0,
+    "parent": "Broker",
+    "parentfield": "dimension_defaults",
+    "parenttype": "Accounting Dimension",
+    "reference_document": "Broker"
+   }
+  ],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Accounting Dimension",
+  "document_type": "Broker",
+  "fieldname": "broker",
+  "label": "Broker",
+  "modified": "2021-06-10 11:02:36.801533",
+  "name": "Broker",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]
